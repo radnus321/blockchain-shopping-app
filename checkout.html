@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+  <body>
+    <div class="navbar">
+        <div class="user">
+          <i class="bi bi-person-circle"></i>
+        </div>
+      <a href="index.html"><h2>Clothing Store</h2></a>
+        <a href="checkout.html">
+          <div class="cart">
+            <i class="bi bi-cart"></i>
+            <div class="cart-amount">0</div>
+          </div>
+        </a> 
+    </div>
+  <div class="checkout" id="checkout">
+    <div class="total-bill-buttons">
+      <div class="total-bill">
+        <h2>Total Bill : $&nbsp;</h2>
+        <h2 class="bill-amount"> 45</h2>
+      </div>
+      <div class="buttons">
+        <button class="checkout-btn">Checkout</button>
+        <button class="clear-cart-btn">Clear Cart</button>
+      </div>
+    </div>
+    <div class="is-empty"></div>
+    <div class="product-cards" id="product-card">
+      <div class="card" id="card-1">
+      <img width="100" src="images/img-1.jpg">
+      <div class="details">
+        <div class="title-price-x">
+          <h4 class="title-price">
+            <p>Casual Shirt</p>
+            <p class="product-price">$ 45</p>
+          </h4>
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <div class="plus-x-minus">
+          <i class="bi bi-dash-lg"></i>
+          <div id=${id} class="quantity">0</div>
+          <i class="bi bi-plus-lg"></i>
+        </div>
+        <h3>$ 135</h3>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script-checkout.js"></script>
+</html>
